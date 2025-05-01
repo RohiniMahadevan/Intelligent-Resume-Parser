@@ -9,7 +9,7 @@ This resume parser is built using SharpAPI's API. The first step would be to ins
 * Language/Format Support - Likely optimized for English; may not support all languages. Does not support scanned images.
 * Rate limits / Quotas - Calls to the SharpAPI service may be rate-limited based on your subscription.
 * Black-box - Internals of parsing (rules vs ML) may not be visible or customizable.
-* File Format - Only supports .pdf and .docx files
+* File Format - Only supports .pdf and .docx files.
 ## Usage
 1. Install dependencies
 2. Create a .env file, and input your Sharp API Key
