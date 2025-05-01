@@ -9,3 +9,9 @@ This resume parser is built using SharpAPI's API. The first step would be to ins
 * Language/Format Support - Likely optimized for English; may not support all languages or scanned images.
 * Rate limits / Quotas - API calls may be rate-limited based on your subscription.
 * Black-box - Internals of parsing (rules vs ML) may not be visible or customizable.
+* 
+## Usage
+1. Install dependencies
+2. Create env file, input in your Sharp API Key
+3. In the resumeparser.py file, L14 replace "your_resume_file.ext" with the path to your resume file, with extension. To keep it simple, just paste your resume in the same directory so you don't need to add a path, just the filename (and extension)
+4. Open a terminal in the directory and enter "python resumeparser.py"
