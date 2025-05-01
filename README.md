@@ -6,6 +6,6 @@ This resume parser is built using SharpAPI's API key. The first step would be to
 3. JSON - It is a standard Python library that parses JSON strings/files and converts Python objects to JSON.
 4. SharpAPI - SharpAPI Python Client SDK enables developers to integrate advanced artificial intelligence capabilities into their Python applications. This SDK simplifies interaction with the SharpAPI services, providing a seamless way to leverage AI for various use cases. 
 ## Assumptions/ Limitations
-Language/Format Support - Likely optimized for English; may not support all languages or scanned images.
-Rate limits / Quotas - API calls may be rate-limited based on your subscription.
-Black-box - Internals of parsing (rules vs ML) may not be visible or customizable.
+* Language/Format Support - Likely optimized for English; may not support all languages or scanned images.
+* Rate limits / Quotas - API calls may be rate-limited based on your subscription.
+* Black-box - Internals of parsing (rules vs ML) may not be visible or customizable.
